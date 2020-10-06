@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LRTB_GVTG'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "OSRAM", "LRTB GVTG" (!) = "", "LRTBGVTG", "Other", "720-LRTBGVTGU5V51A5B", "https://www.mouser.com/Search/Refine.aspx?Keyword=720-LRTBGVTGU5V51A5B", "9154803P", "http://uk.rs-online.com/web/p/products/9154803P", "Osram Opto LRTB GVTG 3 RGB LED, 476 (Blue) nm, 546 (Green) nm, 631 (Red) nm PLCC Diffused, Rectangle Lens SMD package", "http://www.osram-os.com/Graphics/XPic9/00134830_0.pdf", "2 mm"
+END_PART
+
+END.

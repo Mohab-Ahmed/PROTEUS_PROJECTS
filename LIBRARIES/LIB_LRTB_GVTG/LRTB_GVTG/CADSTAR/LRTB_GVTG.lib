@@ -1,0 +1,19 @@
+.LRTB_GVTG :1 ;Osram Opto LRTB GVTG 3 RGB LED, 476 (Blue) nm, 546 (Green) nm, 631 (Red) nm PLCC Diffused, Rectangle Lens SMD package
+LRTBGVTG
+*STM LED
+*NGS
+*PNM 1=A1 2=A2 3=A3 4=C1 5=C2 6=C3
+*PLB 1="CATHODE BLUE" 2="CATHODE TRUE GREEN" 3="CATHODE RED" 4="ANODE RED" 5="ANODE TRUE GREEN" 6="ANODE BLUE"
+*MXP 6
+*DFN LRTB_GVTG
+~!Manufacturer_Name (OSRAM)
+~!Manufacturer_Part_Number (LRTB GVTG)
+~!Mouser Part Number (720-LRTBGVTGU5V51A5B)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=720-LRTBGVTGU5V51A5B)
+~!RS Part Number (9154803P)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/9154803P)
+~!Link Datasheet (http://www.osram-os.com/Graphics/XPic9/00134830_0.pdf)
+~!Height (2mm)
+~!3D_Model (LRTB_GVTG)
+LRTB_GVTG
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

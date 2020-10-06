@@ -1,0 +1,140 @@
+
+(EDIF
+  (rename &LRTB_GVTG "LRTB_GVTG")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2020 04 23 02 53 22)
+      (dataOrigin "535810/251430/2.46/6/4/LED")
+      (program "SamacSys ECAD Model LRTB_GVTG"
+        (version "1.1"))))
+  (library
+  (rename &LRTB_GVTG "LRTB_GVTG")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &LRTB_GVTG "LRTB_GVTG")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "LED")
+          (property (rename PACKAGENAME "PackageName") (string "LRTB_GVTG"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "LRTBGVTG"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "OSRAM"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "LRTB GVTG"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "720-LRTBGVTGU5V51A5B"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.com/Search/Refine.aspx?Keyword=720-LRTBGVTGU5V51A5B"))
+          (property (rename &RS_Part_Number "RS Part Number") (string "9154803P"))
+          (property (rename &RS_Price_Stock "RS Price/Stock") (string "http://uk.rs-online.com/web/p/products/9154803P"))
+          (property (rename &Description "Description") (string "Osram Opto LRTB GVTG 3 RGB LED, 476 (Blue) nm, 546 (Green) nm, 631 (Red) nm PLCC Diffused, Rectangle Lens SMD package"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "http://www.osram-os.com/Graphics/XPic9/00134830_0.pdf"))
+          (property (rename &Height "Height") (string "2 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "LRTB_GVTG"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &CATHODE_BLUE "CATHODE_BLUE")
+            (designator "A1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &CATHODE_TRUE_GREEN "CATHODE_TRUE_GREEN")
+            (designator "A2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &CATHODE_RED "CATHODE_RED")
+            (designator "A3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &ANODE_RED "ANODE_RED")
+            (designator "C1")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (port
+            (rename &ANODE_TRUE_GREEN "ANODE_TRUE_GREEN")
+            (designator "C2")
+            (property (rename ORDER "Order") (string "4") (owner "OrCAD"))
+          )
+          (port
+            (rename &ANODE_BLUE "ANODE_BLUE")
+            (designator "C3")
+            (property (rename ORDER "Order") (string "5") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &CATHODE_BLUE (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 2000 -100) (pt 2200 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 2200 -100))))
+            )
+            (portImplementation
+              (name &CATHODE_TRUE_GREEN (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 2000 -200) (pt 2200 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 2200 -200))))
+            )
+            (portImplementation
+              (name &CATHODE_RED (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 2000 -300) (pt 2200 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt 2200 -300))))
+            )
+            (portImplementation
+              (name &ANODE_RED (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &ANODE_TRUE_GREEN (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &ANODE_BLUE (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -300) (pt 0 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -300))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 2000 0)
+                  (pt 2000 -400)
+                  (pt 0 -400)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 2050 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 2050 30))))
+          )
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MSP432P401RIPZR
+D ARM Microcontrollers - MCU Low-Power and High Performance 32-Bit ARM Cortex M4F With 256KB Flash and 64KB RAM 100-LQFP -40 to 85
+K
+F http://www.ti.com/lit/ds/symlink/msp432p401r.pdf
+$ENDCMP
+#
+#End Doc Library

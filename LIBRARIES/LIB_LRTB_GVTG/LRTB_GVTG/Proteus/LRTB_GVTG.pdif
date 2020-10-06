@@ -1,0 +1,134 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LRTB_GVTG"
+   (description "Osram Opto LRTB GVTG 3 RGB LED, 476 (Blue) nm, 546 (Green) nm, 631 (Red) nm PLCC Diffused, Rectangle Lens SMD package")
+   (family "DIO")
+   (package "LRTBGVTG")
+   (attribute "Datasheet Link" "http://www.osram-os.com/Graphics/XPic9/00134830_0.pdf")
+   (attribute "Geometry.Height" "2mm")
+   (attribute "Manufacturer_Name" "OSRAM")
+   (attribute "Manufacturer_Part_Number" "LRTB GVTG")
+   (attribute "Mouser Part Number" "720-LRTBGVTGU5V51A5B")
+   (attribute "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=720-LRTBGVTGU5V51A5B")
+   (attribute "RS Part Number" "9154803P")
+   (attribute "RS Price/Stock" "http://uk.rs-online.com/web/p/products/9154803P")
+   (gate
+    (symbol "LRTB_GVTG")
+    (pin "CATHODE_BLUE" A1 PS)
+    (pin "CATHODE_TRUE_GREEN" A2 PS)
+    (pin "CATHODE_RED" A3 PS)
+    (pin "ANODE_RED" C1 PS)
+    (pin "ANODE_TRUE_GREEN" C2 PS)
+    (pin "ANODE_BLUE" C3 PS)
+   )
+  )
+  (symbol "LRTB_GVTG"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 2200 100) (pt 2200 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 2400 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2400 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2400 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "LRTBGVTG"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.5 1.65)
+      (pt 1.5 1.65)
+      (pt 1.5 -1.65)
+      (pt -1.5 -1.65)
+      (pt -1.5 1.65))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.125 2.65)
+      (pt 3.125 2.65)
+      (pt 3.125 -2.65)
+      (pt -3.125 -2.65)
+      (pt -3.125 2.65))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.5 1.65)
+      (pt 1.5 1.65))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.5 -1.65)
+      (pt 1.5 -1.65))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.6 1)
+      (arc (pt -2.600 1.000) (pt -2.700 1.000) (pt -2.500 1.200) (start 180.0) (sweep -90.0))
+      (pt -2.6 1.2)
+      (arc (pt -2.600 1.200) (pt -2.700 1.000) (pt -2.500 1.200) (start 180.0) (sweep 90.0))
+      (pt -2.6 1))))
+   (leg A1 (pt 1.475 1.100) (padstack 0))
+   (leg A2 (pt 1.475 0.000) (padstack 0))
+   (leg A3 (pt 1.475 -1.100) (padstack 0))
+   (leg C1 (pt -1.475 1.100) (padstack 0))
+   (leg C2 (pt -1.475 0.000) (padstack 0))
+   (leg C3 (pt -1.475 -1.100) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.700 1.300 0 0 0.000))
+   )
+   (model "LRTB_GVTG.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

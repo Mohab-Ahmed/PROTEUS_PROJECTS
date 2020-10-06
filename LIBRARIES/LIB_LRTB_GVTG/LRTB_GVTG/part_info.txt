@@ -1,0 +1,9 @@
+Manufacturer=OSRAM
+PartNumber=LRTB GVTG
+PartCategory=LED
+PackageCategory=Other
+PinCount=6
+Version=1.1
+Released=2017-10-10 11:19:14
+Downloaded=2020-04-23 02:53:22
+3D=Y

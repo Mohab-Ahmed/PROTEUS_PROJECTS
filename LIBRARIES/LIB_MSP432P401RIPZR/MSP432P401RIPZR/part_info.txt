@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=MSP432P401RIPZR
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat Packages
+PinCount=100
+Version=2.1
+Released=2017-01-12 22:13:56
+Downloaded=2020-04-21 02:08:05
+3D=Y

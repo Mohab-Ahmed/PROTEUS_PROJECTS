@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MSP432P401RIPZR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "FARNELL_PART_NUMBER", "FARNELL_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "MSP432P401RIPZR" (!) = "", "QFP50P1600X1600X160-100N", "Quad Flat Packages", "3008363RL", "http://uk.farnell.com/jsp/displayProduct.jsp?sku=3008363RL&action=view", "ARM Microcontrollers - MCU Low-Power and High Performance 32-Bit ARM Cortex M4F With 256KB Flash and 64KB RAM 100-LQFP -40 to 85", "http://www.ti.com/lit/ds/symlink/msp432p401r.pdf", "1.6 mm"
+END_PART
+
+END.
